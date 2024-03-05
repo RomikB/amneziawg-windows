@@ -1,6 +1,6 @@
-module github.com/amnezia-vpn/awg-windows
+module github.com/romikb/amneziawg/windows
 
-go 1.16
+go 1.18
 
 require (
 	github.com/amnezia-vpn/amnezia-wg v0.1.8
@@ -9,4 +9,8 @@ require (
 	golang.org/x/text v0.14.0
 )
 
-require golang.org/x/net v0.20.0 // indirect
+require (
+	github.com/tevino/abool/v2 v2.1.0 // indirect
+	golang.org/x/net v0.15.0 // indirect
+	golang.zx2c4.com/wintun v0.0.0-20230126152724-0fa3db229ce2 // indirect
+)

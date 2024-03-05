@@ -14,19 +14,19 @@ import (
 	"runtime"
 	"time"
 
-	"golang.org/x/sys/windows"
-	"golang.org/x/sys/windows/svc"
-	"golang.org/x/sys/windows/svc/mgr"
 	"github.com/amnezia-vpn/amnezia-wg/conn"
 	"github.com/amnezia-vpn/amnezia-wg/device"
 	"github.com/amnezia-vpn/amnezia-wg/ipc"
 	"github.com/amnezia-vpn/amnezia-wg/tun"
+	"golang.org/x/sys/windows"
+	"golang.org/x/sys/windows/svc"
+	"golang.org/x/sys/windows/svc/mgr"
 
-	"github.com/amnezia-vpn/awg-windows/conf"
-	"github.com/amnezia-vpn/awg-windows/elevate"
-	"github.com/amnezia-vpn/awg-windows/ringlogger"
-	"github.com/amnezia-vpn/awg-windows/services"
-	"github.com/amnezia-vpn/awg-windows/version"
+	"github.com/romikb/amneziawg/windows/conf"
+	"github.com/romikb/amneziawg/windows/elevate"
+	"github.com/romikb/amneziawg/windows/ringlogger"
+	"github.com/romikb/amneziawg/windows/services"
+	"github.com/romikb/amneziawg/windows/version"
 )
 
 type tunnelService struct {
