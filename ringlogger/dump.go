@@ -12,7 +12,7 @@ import (
 
 	"golang.org/x/sys/windows"
 
-	"github.com/github.com/romikb/amneziawg-windows/conf"
+	"github.com/romikb/amneziawg-windows/conf"
 )
 
 func DumpTo(out io.Writer, notSystem bool) error {

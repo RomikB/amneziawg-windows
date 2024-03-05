@@ -17,7 +17,7 @@ import (
 
 	"golang.org/x/crypto/curve25519"
 
-	"github.com/github.com/romikb/amneziawg-windows/l18n"
+	"github.com/romikb/amneziawg-windows/l18n"
 )
 
 const KeyLength = 32

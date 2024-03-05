@@ -8,7 +8,7 @@ package services
 import (
 	"errors"
 
-	"github.com/github.com/romikb/amneziawg-windows/conf"
+	"github.com/romikb/amneziawg-windows/conf"
 )
 
 func ServiceNameOfTunnel(tunnelName string) (string, error) {
