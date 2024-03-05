@@ -18,7 +18,7 @@ import (
 
 	"golang.org/x/text/encoding/unicode"
 
-	"github.com/romikb/amneziawg/windows/l18n"
+	"github.com/github.com/romikb/amneziawg-windows/l18n"
 )
 
 type ParseError struct {

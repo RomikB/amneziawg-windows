@@ -10,7 +10,7 @@ import (
 	"path/filepath"
 	"unsafe"
 
-	"github.com/romikb/amneziawg/windows/conf"
+	"github.com/github.com/romikb/amneziawg-windows/conf"
 )
 
 var Global *Ringlogger

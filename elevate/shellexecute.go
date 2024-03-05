@@ -14,7 +14,7 @@ import (
 	"golang.org/x/sys/windows"
 	"golang.org/x/sys/windows/registry"
 
-	"github.com/romikb/amneziawg/windows/version"
+	"github.com/github.com/romikb/amneziawg-windows/version"
 )
 
 const (

@@ -15,7 +15,7 @@ import (
 	"golang.org/x/sys/windows"
 	"golang.org/x/text/unicode/norm"
 
-	"github.com/romikb/amneziawg/windows/conf"
+	"github.com/github.com/romikb/amneziawg-windows/conf"
 )
 
 const deterministicGUIDLabel = "Deterministic WireGuard Windows GUID v1 jason@zx2c4.com"

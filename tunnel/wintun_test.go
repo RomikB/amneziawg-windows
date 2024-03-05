@@ -19,8 +19,8 @@ import (
 
 	"github.com/amnezia-vpn/amnezia-wg/tun"
 
-	"github.com/romikb/amneziawg/windows/elevate"
-	"github.com/romikb/amneziawg/windows/tunnel/winipcfg"
+	"github.com/github.com/romikb/amneziawg-windows/elevate"
+	"github.com/github.com/romikb/amneziawg-windows/tunnel/winipcfg"
 )
 
 func TestWintunOrdering(t *testing.T) {

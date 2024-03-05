@@ -14,10 +14,10 @@ import (
 	"github.com/amnezia-vpn/amnezia-wg/conn"
 	"github.com/amnezia-vpn/amnezia-wg/tun"
 
-	"github.com/romikb/amneziawg/windows/conf"
-	"github.com/romikb/amneziawg/windows/services"
-	"github.com/romikb/amneziawg/windows/tunnel/firewall"
-	"github.com/romikb/amneziawg/windows/tunnel/winipcfg"
+	"github.com/github.com/romikb/amneziawg-windows/conf"
+	"github.com/github.com/romikb/amneziawg-windows/services"
+	"github.com/github.com/romikb/amneziawg-windows/tunnel/firewall"
+	"github.com/github.com/romikb/amneziawg-windows/tunnel/winipcfg"
 )
 
 type interfaceWatcherError struct {

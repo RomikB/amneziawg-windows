@@ -22,11 +22,11 @@ import (
 	"golang.org/x/sys/windows/svc"
 	"golang.org/x/sys/windows/svc/mgr"
 
-	"github.com/romikb/amneziawg/windows/conf"
-	"github.com/romikb/amneziawg/windows/elevate"
-	"github.com/romikb/amneziawg/windows/ringlogger"
-	"github.com/romikb/amneziawg/windows/services"
-	"github.com/romikb/amneziawg/windows/version"
+	"github.com/github.com/romikb/amneziawg-windows/conf"
+	"github.com/github.com/romikb/amneziawg-windows/elevate"
+	"github.com/github.com/romikb/amneziawg-windows/ringlogger"
+	"github.com/github.com/romikb/amneziawg-windows/services"
+	"github.com/github.com/romikb/amneziawg-windows/version"
 )
 
 type tunnelService struct {

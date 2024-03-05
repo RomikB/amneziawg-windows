@@ -1,4 +1,4 @@
-module github.com/romikb/amneziawg/windows
+module github.com/github.com/romikb/amneziawg-windows
 
 go 1.18
 
